@@ -13,7 +13,9 @@ Author = "DeadMechanic"
 
 // A longer description of what your mod does to the game. This is optional.
 Description = "This is a mod to bring the Galactic Allegiance & More Crew Quarters mods to the Build and Battle mode.\n\n"\
-				"Requires MGalactic Allegiance & More Crew Quarters to be installed.\n\n"
+		"To accomodate the extra techs and parts, the number of offerings per round has been increased, and the number of extra offerings in the first round has been increased.\n\n"\
+		"Each round will now offer 2 random techs, 3 extra techs in the first round, and 2 of each type of tech (weapons, defenses, thrusters).\n\n"\
+		"Requires Galactic Allegiance & More Crew Quarters to be installed.\n\n"
 
 Actions
 [
