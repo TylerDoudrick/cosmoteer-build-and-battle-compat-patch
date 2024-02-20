@@ -4,7 +4,7 @@ Name = "Build and Battle Tech Compatability Patch for Galactic Allegiance & More
 
 Version = 1.0.0
 
-CompatibleGameVersions = ["0.25.2a"]
+CompatibleGameVersions = [">0.25.0"]
 
 ModifiesGameplay = true
 
