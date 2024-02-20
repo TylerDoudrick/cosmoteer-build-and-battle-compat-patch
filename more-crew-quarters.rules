@@ -1,0 +1,35 @@
+Techs
+[
+	{
+		ID = "kurim.3x3crewquarters"
+		NameKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_3x3/crew_3x3.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_3x3/crew_3x3.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_3x3/crew_3x3.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2883177284/ships/crew_3x3/crew_3x3.rules>/Part/ID]
+		Cost = 6000
+		FundsThresholdBeforeOffered = 0
+	}
+	{
+		ID = "kurim.4x3crewquarters"
+		NameKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x3/crew_4x3.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x3/crew_4x3.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x3/crew_4x3.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x3/crew_4x3.rules>/Part/ID]
+		Cost = 9000
+		FundsThresholdBeforeOffered = 0
+	}
+	{
+		ID = "kurim.4x4crewquarters"
+		NameKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x4/crew_4x4.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x4/crew_4x4.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x4/crew_4x4.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2883177284/ships/crew_4x4/crew_4x4.rules>/Part/ID]
+		Cost = 12000
+		FundsThresholdBeforeOffered = 0
+	}
+]
+PartsWhitelist
+[
+	kurim.3x1crewquarters
+	kurim.3x2crewquarters
+]

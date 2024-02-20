@@ -1,0 +1,282 @@
+Techs
+[
+	{
+		ID = "ultranova.ciws_small"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_small/ciws_small.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_small/ciws_small.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_small/ciws_small.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_small/ciws_small.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [defenses]
+	}
+	{
+		ID = "ultranova.ciws_large"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_large/ciws_large.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_large/ciws_large.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_large/ciws_large.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/ciws_large/ciws_large.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [defenses]
+	}
+	{
+		ID = "ultranova.beam_pd_small"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_small/beam_pd_small.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_small/beam_pd_small.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_small/beam_pd_small.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_small/beam_pd_small.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [defenses]
+	}
+	{
+		ID = "ultranova.beam_pd_large"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_large/beam_pd_large.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_large/beam_pd_large.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_large/beam_pd_large.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/beam_pd_large/beam_pd_large.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [defenses]
+	}
+	{
+		ID = "ultranova.core_shield_small"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/core_shield_small/core_shield_small.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/core_shield_small/core_shield_small.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/core_shield_small/core_shield_small.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Defences/core_shield_small/core_shield_small.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 400000
+		Category = [defenses]
+	}
+		{
+		ID = "ultranova.fighter_energy_cannon"
+		NameKey = "Parts/EnergyCannons"
+		DescriptionKey = "Parts/EnergyCannonsDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_cannon/energy_cannon.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_cannon/energy_cannon.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_cannon/energy_cannon_left.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/long_energy_cannon/long_energy_cannon.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/long_energy_cannon/long_energy_cannon_left.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/very_long_energy_cannon/long_energy_cannon.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.fighter_energy_minigun"
+		NameKey = "Parts/EnergyMiniguns"
+		DescriptionKey = "Parts/EnergyMinigunsDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_minigun/energy_minigun.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_minigun/energy_minigun.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/energy_minigun/energy_minigun_left.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/long_energy_minigun/long_energy_minigun.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_weapons/long_energy_minigun/long_energy_minigun_left.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.fighter_turret"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_turret/fighter_turret.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_turret/fighter_turret.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_turret/fighter_turret.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/fighter_turret/fighter_turret.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.medium_turret"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/med_turret/med_turret.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/med_turret/med_turret.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/med_turret/med_turret.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/med_turret/med_turret.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.large_turret"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/large_turret/large_turret.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/large_turret/large_turret.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/large_turret/large_turret.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/large_turret/large_turret.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 300000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.capital_turret"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/capital_turret/capital_turret.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/capital_turret/capital_turret.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/capital_turret/capital_turret.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/capital_turret/capital_turret.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 350000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.machine_gun_heavy"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy/machine_gun_heavy.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy/machine_gun_heavy.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy/machine_gun_heavy.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy/machine_gun_heavy.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.machine_gun_heavy_dual"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy_dual/machine_gun_heavy_dual.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy_dual/machine_gun_heavy_dual.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy_dual/machine_gun_heavy_dual.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Energy_Weapons/machine_gun_heavy_dual/machine_gun_heavy_dual.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.gauss_cannon"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/cannon_gauss/cannon_gauss.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/cannon_gauss/cannon_gauss.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/cannon_gauss/cannon_gauss.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/cannon_gauss/cannon_gauss.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.missile_silo"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/missile_silo/missile_silo.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/missile_silo/missile_silo.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/missile_silo/missile_silo.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/missile_silo/missile_silo.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.small_particle_cannon"
+		NameKey = "Parts/ParticleCannonSmall"
+		DescriptionKey = "Parts/ParticleCannonSmallDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_small/particle_cannon_barrel.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_small/particle_cannon_barrel.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_small/particle_cannon_barrel_extender.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_small/particle_cannon_loader.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.large_particle_cannon"
+		NameKey = "Parts/ParticleCannonLarge"
+		DescriptionKey = "Parts/ParticleCannonLargeDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_large/particle_cannon_barrel/particle_cannon_barrel.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_large/particle_cannon_barrel/particle_cannon_barrel.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_large/particle_cannon_extender/particle_cannon_extender.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_large/particle_cannon_extender_external/particle_cannon_extender_external.rules>/Part/ID
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/particle_cannon_large/particle_cannon_loader/particle_cannon_loader.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 300000
+		Category = [weapons]
+
+	}
+	{
+		ID = "ultranova.rocket_silo_heavy"
+		NameKey = "Parts/RocketSiloHeavy"
+		DescriptionKey = "Parts/RocketSiloHeavyDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/rocket_silo_heavy/rocket_silo_heavy.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/rocket_silo_heavy/rocket_silo_heavy.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.rocket_turret_small"
+		NameKey = "Parts/RocketTurretSmall"
+		DescriptionKey = "Parts/RocketTurretSmallDesc"
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/rocket_turret_small/rocket_turret_small.rules>/Part/EditorIcon
+		PartsUnlocked
+		[
+			&<./Data/../../../workshop/content/799600/2879478059/Parts/Projectile_Weapons/rocket_turret_small/rocket_turret_small.rules>/Part/ID
+		]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [weapons]
+	}
+	{
+		ID = "ultranova.plasma_thruster_small"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_small/thruster_plasma_small.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_small/thruster_plasma_small.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_small/thruster_plasma_small.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_small/thruster_plasma_small.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [thrusters]
+	}
+	{
+		ID = "ultranova.plasma_thruster_med"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_med/thruster_plasma_med.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_med/thruster_plasma_med.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_med/thruster_plasma_med.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_med/thruster_plasma_med.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+		Category = [thrusters]
+	}
+	{
+		ID = "ultranova.plasma_thruster_large"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_large/thruster_plasma_large.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_large/thruster_plasma_large.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_large/thruster_plasma_large.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_large/thruster_plasma_large.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [thrusters]
+	}
+	{
+		ID = "ultranova.plasma_thruster_huge"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_huge/thruster_plasma_huge.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_huge/thruster_plasma_huge.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_huge/thruster_plasma_huge.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/thruster_plasma_huge/thruster_plasma_huge.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 200000
+		Category = [thrusters]
+	}
+	{
+		ID = "ultranova.antigrav_small"
+		NameKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/antigrav_small/antigrav_small.rules>/Part/NameKey
+		DescriptionKey = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/antigrav_small/antigrav_small.rules>/Part/DescriptionKey
+		Icon = &<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/antigrav_small/antigrav_small.rules>/Part/EditorIcon
+		PartsUnlocked = [&<./Data/../../../workshop/content/799600/2879478059/Parts/Flight/antigrav_small/antigrav_small.rules>/Part/ID]
+		Cost = 5000
+		FundsThresholdBeforeOffered = 0
+	}
+]
+PartsWhitelist
+[
+	"ultranova.airlock_large"
+	"ultranova.command_booster"
+	"ultranova.fire_room"
+	"ultranova.phantom_reactor"
+	"ultranova.crew_quarters_walkthrough"
+
+]

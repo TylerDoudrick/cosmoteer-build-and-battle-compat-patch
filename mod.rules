@@ -1,0 +1,59 @@
+ID = DeadMechanic.BuildAndBattleTechCompatPatch
+
+Name = "Build and Battle Tech Compat Patch"
+
+Version = 1.0.0
+
+CompatibleGameVersions = ["0.25.2a"]
+
+ModifiesGameplay = true
+
+Author = "DeadMechanic"
+
+
+// A longer description of what your mod does to the game. This is optional.
+Description = "This is a mod to bring the More Crew Quarters & Galactic Allegiance mods to the Build and Battle mode.\n\n"\
+				"Requires More Crew Quarters & Galactic Allegiance to be installed.\n\n"
+
+Actions
+[
+	{
+		Action = AddMany
+		AddTo = "<modes/pvp/pvp_buildbattle/techs_buildbattle.rules>/Techs"
+		ManyToAdd = &<galactic_allegiance.rules>/Techs
+	}
+	{
+		Action = AddMany
+		AddTo = "<modes/pvp/pvp_buildbattle/techs_buildbattle.rules>/PartsWhitelist"
+		ManyToAdd = &<galactic_allegiance.rules>/PartsWhitelist
+	}
+	{
+		Action = AddMany
+		AddTo = "<modes/pvp/pvp_buildbattle/techs_buildbattle.rules>/Techs"
+		ManyToAdd = &<more-crew-quarters.rules>/Techs
+	}
+	{
+		Action = AddMany
+		AddTo = "<modes/pvp/pvp_buildbattle/techs_buildbattle.rules>/PartsWhitelist"
+		ManyToAdd = &<more-crew-quarters.rules>/PartsWhitelist
+	}
+	{
+		Action = Replace
+		Replace = "<modes/pvp/pvp_buildbattle/pvp_buildbattle.rules>/Mode/RandomOfferingsPerRound"
+		With = 2
+	}
+	{
+		Action = Replace
+		Replace = "<modes/pvp/pvp_buildbattle/pvp_buildbattle.rules>/Mode/ExtraFirstRoundOfferings"
+		With = 3
+	}
+	{
+		Action = Replace
+		Replace = "<modes/pvp/pvp_buildbattle/pvp_buildbattle.rules>/Mode/TechOfferingsPerRound"
+		With = 	[
+		[weapons, 2],
+		[defenses, 2],
+		[thrusters, 2]
+	]
+	}
+]
