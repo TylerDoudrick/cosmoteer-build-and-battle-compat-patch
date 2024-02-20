@@ -1,6 +1,6 @@
 ID = DeadMechanic.BuildAndBattleTechCompatPatch
 
-Name = "Build and Battle Tech Compat Patch"
+Name = "Build and Battle Tech Compatability Patch for Galactic Allegiance & More Crew Quarters"
 
 Version = 1.0.0
 
@@ -12,8 +12,8 @@ Author = "DeadMechanic"
 
 
 // A longer description of what your mod does to the game. This is optional.
-Description = "This is a mod to bring the More Crew Quarters & Galactic Allegiance mods to the Build and Battle mode.\n\n"\
-				"Requires More Crew Quarters & Galactic Allegiance to be installed.\n\n"
+Description = "This is a mod to bring the Galactic Allegiance & More Crew Quarters mods to the Build and Battle mode.\n\n"\
+				"Requires MGalactic Allegiance & More Crew Quarters to be installed.\n\n"
 
 Actions
 [
